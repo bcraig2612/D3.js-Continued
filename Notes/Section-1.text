@@ -1,0 +1,48 @@
+# D3.js-Course
+
+*** Types of Visualizations ***
+( 1 ) Exploring Data - Find An Unknown
+( 2 ) Analyzing Data - Test A Hypothesis
+( 3 ) Presenting Data - Tell A Story
+
+*** Other Competitive Visual Data Libraries ***
+( 1 ) FusionCharts
+( 2 ) HighCharts
+( 3 ) Chart.js
+( 4 ) Google Developers Charts
+
+*** D3: Data Driven Documents ***
+( 1 ) Flexibility - make unique visualizations
+    - Load your own data from any source you like
+    - D3 patches this data to shapes on the screen
+    - Make completely new visualizations that have never been imagined before
+
+( 2 ) Elegance - build beautiful visualizations with ease
+    - D3 handles huge volumes of data efficiently
+    - Easily add smooth transitions for updating elements
+    - Work with clean, well-designed code
+
+( 3 ) Community - find pre-written code to do anything you want
+    - Find pre-built code to use in your own projects
+    - Everything is open source, so you don't need to worry about licensing
+    - Wide user base makes it easy to collaborate with others
+
+*** Sections 1 - 6 Overview ***
+( 1 ) Learning the fundamentals of D3
+( 2 ) Common visualizations - bar charts, line charts, and scatter plots
+( 3 ) Dynamically updating, interactive visualizations
+( 4 ) Gradually adding complexity
+( 5 ) Focus on skill development
+
+*** Sections 7 - 9 ***
+( 1 ) Crash course through 12 new visualizations
+( 2 ) Picking apart community code
+( 3 ) Focus on broadening your knowledge base
+
+*** Section 10 ***
+( 1 ) Writing a clean file structure
+( 2 ) Visualizations as objects
+( 3 ) Multiple visualizations updating at once
+( 4 ) Focus on code organization
+
+*** Adam Janes Udemy-D3 Repository https://github.com/adamjanes/udemy-d3 ***

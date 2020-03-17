@@ -1,0 +1,27 @@
+*** The D3 Update Pattern ***
+(1) Data Join - select all matching elements on the screen with selectAll(), and update the data that we're using.
+
+    >> DATA JOIN:
+        var text = g.selectAll("text")
+            .data(data);
+
+(2) Exit - use the exit() selector to remove the elements that don't exist in our new array of data.
+
+    >> EXIT:
+        text.exit().remove();
+
+(3) Update - set attributes for existing elements on the screen.
+
+    >> UPDATE:
+        text.attr("class", "update")
+            .attr("fill", "red");
+
+(4) Enter - use the enter() selector to set attributes for new items in our data array.
+
+    >> ENTER:
+        text.enter().append("text")
+            .attr("class", "enter")
+            .attr("x", function(d, i) { return i * 32; })
+            .attr("y", 20)
+            .attr("fill", "green")
+            .text(function(d) { return d; });
