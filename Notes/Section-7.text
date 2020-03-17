@@ -1,0 +1,30 @@
+*** Chapter 7 Notes ***
+    >> Using The D3 Community
+        > Helping you to find pre-written boilerplate code online
+        > Setting ourselves up for the next 3 sections of the course
+        > YOU SHOULDN'T NEED TO FIGURE OUT HOW TO DO SOMETHING IF IT'S ALREADY BEEN DONE BEFORE
+        > bl.ocks.org and blockbuilder.org are the 2 main websites for D3.js boilerplates.
+
+    >> Migrating Code To Version 5.x
+        > The changes between D3 version 4 and version 5
+        > What you need to do to migrate existing code to the latest version
+
+    >> New In Version 5
+        > Data loading as promises
+        > Deprecation of d3.queue( )
+        > Removal of d3.schemeCategory20
+        > Addition of the d3-scale-chromatic module
+
+    >> D3 Layouts
+        > Intro to the layout structure that existed in D3 V3
+        > Show some examples how this behavior still exists in V4
+        > Helping to understand how many visualizations are created
+    >> Intro To Layouts
+        > Take in data, and add new fields to each item in our data array
+        > Use these fields to draw our visualizations (ex: pass some generated values straight into SVG attributes)
+    >> Some V3 to V4 syntax changes:
+        > d3.layout.pie() --> d3.pie()
+        > d3.layout.force() --> d3.force()
+        > d3.layout.stack() --> d3.stack()
+        > d3.layout.treemap() --> d3.treemap()
+        > d3.layout.cloud() --> d3.layout.cloud()

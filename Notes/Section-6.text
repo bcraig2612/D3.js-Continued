@@ -1,0 +1,47 @@
+*** Section-6 Notes ***
+
+- D3 Format for number formats
+- Using how to use string specifiers for formatting hard-to-read numbers
+- D3 TimeFormat and TimeParse for converting dates between strings and JavaScript Date objects
+
+    >> D3 Format
+        > Converting messy numbers to human-readable formats
+        > Adding thousands separators (ex: 5,000)
+        > Defining how many decimal points a number should have
+        > Displaying integers as currencies or percentages
+        > Need to provide a "specifier" string to tell the function how it should be formatted
+        > Use d3.timeFormat and d3.timeParse to move between date objects and strings
+        > Again, we need to provide a specifier, which is made up with directives and spacing characters
+
+    >> Introducing Tooltips
+        > Adding tooltips to let the user view the data that an SVG represents
+        > Using our first plug-in library to expand on the power of D3.js : D3-tip
+        > Using D3 formatting to render our text
+
+    >> Event Listeners For Tooltips
+        > The on( ) method in D3 for attaching events to SVGs
+        > 2 arguments - the type of event, and a function to execute
+        > Event types - ex: click, mouseover, mosuseout, mousemove
+        > tip.show and tip.hide are methods that the d3-tip library gives us
+
+    >> Event Listeners & Handlers in D3
+        > Adding new interactive elements to our graph
+        > Using jQuery to bind these elements to event listeners
+        > Thinking through how our visualization should handle each event
+
+    >> Some Useful Interactive Elements
+        > Play / Pause button - take a look at the world in just one year
+        > Reset button - start over from 1810
+        > Continent Filter - look at the progress of just one continent
+
+    >> Adding A jQuery UI Slider
+        > Running through the syntax for making a jQuery UI slider
+        > Improving our visualization by allowing users to pick a date to look at
+
+    >> The jQuery UI library
+        > A plugin library for some extra components on top of jQuery (ex: making elements draggable or resizable)
+        > Intuitive display that users are used to
+        > There a number of sliders that you can use. Bootstrap is easier, but jQuery allows ranges
+
+    >> Line Graphs in D3
+        > Using d3.line - your first path generator
