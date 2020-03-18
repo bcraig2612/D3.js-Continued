@@ -1,0 +1,28 @@
+*** Section-9 Notes ***
+
+>> Hierarchical Data
+    > Hierarchy Jargon
+        > NODES
+        > LINKS
+        > PARENT NODE
+        > CHILD NODES
+        > ROOT NODE
+        > LEAF NODES
+    > Setting Up A Root Node:
+        > We'll need to provide our data as a "root" node in the right format
+        > We can use D3 Hierarchy or D3 Stratify to convert a JavaScript object to something that our layouts can work with
+
+>> Tree Diagrams
+    > Using the D3 Tree Layout
+    > Our first visualization that uses the D3 hierarchy layout
+
+>> Tree Maps
+    > Using D3 Hierarchy with D3 Treemap Layout
+
+>> Circle Packing
+    > Alternative to tree-maps for displaying values across hierarchies
+    > Using D3 hierarchy again to structure data
+
+>> Sunburst Plots
+    > D3 Partition layout to add fields to our data
+    > Adding arcs with the D3 arc path generator

@@ -18,3 +18,23 @@
 >> Choropleth Maps
     > D3 Queue in action for combining 2 different files
     > Using a color scale between different values
+
+>> Forces in D3
+    > Intro to the D3 force layout - great for user interactivity
+    > Learning the syntax for adding these forces to SVGs
+    > Examples of the D3 force layout in action
+
+>> D3 Forces
+    > Adding physical forces to our SVGs
+    > Making elements attract / repel each other
+    > Visualizing relationships between elements
+    > Grouping elements around a central point
+    > Automatically spacing elements out
+    > Step 1: Initialize the force simulation
+    > Step 2: Add force functions to the system
+    > Step 3: Create a callback function to update SVG positions after every "tick"
+
+>> Node Link Diagrams
+    > Introducing node-link diagrams for displaying network data
+    > Walking through an example implementation from the community
+    > Using the D3 force layout to group SVGs based on their connections

@@ -1,0 +1,45 @@
+*** Section-10 Notes***
+
+>> File Separation
+    > Starting to restructure our JavaScript code for more complex projects
+    > Splitting our code into different JavaScript files
+    > Making our code more reusable and readable
+
+>> Visualization as Objects
+    > Intro to the principles behind Object Oriented Programming (OOP)
+    > Talk about why we should want to structure our visualizations as objects
+    > Show you the syntax that we'll be using to accomplish this
+    > Makes the code that we write more reusable between projects
+    > Cleans up the global namespace, making it easier to keep track of visualizations
+    > Lets us create many similar visualizations at once without repeating ourselves
+
+>> Converting Our Code To OOP
+    > Rewriting our line chart visualization from project 3 as a JavaScript object
+    > Stepping through the different changes that we'll need to make
+    > Quickly adding 5 line charts to our page at once
+
+>> Handling Events Across Objects
+    > Adding two donut charts to our graph to show us an overview of the different coins
+    > Linking our views together inside our main.js file
+    > Allow our visualizations to communicate with one another
+
+>> New Events
+    > When an arc is clicked...
+        > The selected arc for both donut charts should change color
+        > The value of the coin select box should change
+        > The line should update to match the coin that we selected
+    > When the coin select box value changes ...
+        > The selected arc for both donut charts should change color
+
+>> D3 Brushes
+    > Intro to brushes in D3 for selecting areas of a visualization
+    > Adding a context graph beneath our line chart so that the user can "zoom in" on a part of that data
+    > Practice at adding events across objects
+    >> Step 1: Initialize the brush with some basic properties
+    >> Step 2: Call the brush in the context of your visualization
+    >> Step 3: Create an event handler for the "brushed" event to make updates based on the position of the brush.
+
+>> Project 4: A corporate data dashboard
+    > Intro to the FreedomCorp project
+    > Taking you through the template files that you're starting off with
+    > Demonstrating how the project should look.
