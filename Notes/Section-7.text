@@ -28,3 +28,36 @@
         > d3.layout.stack() --> d3.stack()
         > d3.layout.treemap() --> d3.treemap()
         > d3.layout.cloud() --> d3.layout.cloud()
+        > d3.scale.time( ) --> d3.scaleTime( )
+        > d3.scale.linear( ) --> d3.scaleLinear( )
+        > d3.scale.log( ) --> d3.scaleLog( )
+        > d3.scale.category20( ) --> d3.scaleOrdinal( d3.schemeCategory20 )
+        > d3.layout.pie( ) --> d3.pie( )
+
+
+    >> Area Charts
+        > Intro to area charts in D3
+        > Walking through some community code as an example implementation
+        > Using the D3 area path generator
+    >> Stacked Area Charts
+        > Intro to stacked area charts in D3
+        > Walking through 2 different example files
+        > Explaining any new code
+        > Using d3.stack( ) layout to work out the right y0 and y1 values to use
+    >> Data Structures & D3 Nests
+        > Talking about how to work with different data structures
+        > Data as an array VS. data as an object
+        > Introducing D3 nests for grouping arrays of data
+    >> Data Structures in JavaScript
+        > Each of our layout functions need our data to be in the right format
+        > How do we coerce the data we have to work with out layout?
+        > What is the right data structure for us to choose for our data files?
+    >> Pie & Donut Charts
+        > Intro to Pie & Donut charts in D3 with 2 examples
+        > Understanding how the D3 pie layout is working
+        > Using the D3 arc path generator
+        > AttrTween for setting custom attribute transitions
+    >> Wordclouds
+        > Intro to wordclouds in D3 for visualization blocks of text
+        > Using the plug-in wordcloud layout with D3 version 4
+        > Walking through and understanding a piece of community code
