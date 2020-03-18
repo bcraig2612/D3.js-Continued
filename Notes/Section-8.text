@@ -1,1 +1,20 @@
 *** Section-8 Notes ***
+
+ >> Visualization Around the Globe
+    > Intro to geographical visualizations
+    > GeoJSON & TopoJSON files
+    > Using D3's geoPath generator
+
+>> Map Files
+    > GeoJSON: A JSON object that gives us information about places (borders, points of interest, etc.). Use with D3.geoPath( ).
+    > TopoJSON: Also encodes topology (how high is a part of land?), but smaller file sizes
+    > TopoJSON.js Library: topojson.feature( ) and topojson.mesh( )
+
+>> Loading Multiple Datasets With D3
+    > Intro to loading multiple datasets with D3
+    > Queues (D3 Version < 5)
+    > Promises (D3 Version 5)
+
+>> Choropleth Maps
+    > D3 Queue in action for combining 2 different files
+    > Using a color scale between different values
